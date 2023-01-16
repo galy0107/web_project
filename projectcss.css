@@ -1,0 +1,79 @@
+.toleft{
+	float:left;
+}
+.toright{
+	float:right;
+}
+
+body {
+	background-image: url("skyBack.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.clear{
+	clear:both;
+}
+.h1{
+	text-align: center;
+}
+
+.pfooter{
+	background-color:transparent;border:3px ;width:300px;
+}
+.white{
+	color:white;
+}
+.mark{
+	background-color: #2b6ee9;
+	color: white
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	text-align: center;
+
+}
+  
+.row::after {
+	content: "";
+	clear: both;
+	display: block;
+
+ }
+.navbar {
+	overflow: hidden;
+	background-color: rgb(175, 175, 175);
+	position: fixed;
+	top: 0; 
+	width: 100%;
+  }
+  
+  .navbar a {
+	float: left;
+	display: block;
+	color: #001797;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  .navbar a:hover {
+	background-color: #2b6ee9;
+	color: rgb(96, 177, 231);
+  }
+
+  .container{ width:50%; margin:0 auto; text-align:center}
+.container span{ width:30%; margin:0 1%;  }
+
+
+

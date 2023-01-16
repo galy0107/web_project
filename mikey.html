@@ -1,0 +1,75 @@
+<html dir="rtl">
+  <head>
+    <title>בואו לאמץ את מייקי</title>
+    <style>
+      body {
+        background-image: url('skyBack.jpg');
+        background-size: cover;
+        color: white;
+        font-family: 'Arial', sans-serif;
+      }
+      .contact-section {
+        margin: 50px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .contact-section h1 {
+        margin-bottom: 30px;
+      }
+      .contact-section p {
+        margin-bottom: 20px;
+      }
+      .contact-section .contact-info {
+        display: flex;
+        align-items: center;
+      }
+      .contact-section .contact-info img {
+        margin-right: 20px;
+      }
+      .contact-section form {
+        display: flex;
+        flex-direction: column;
+      }
+      .contact-section form label {
+        margin-bottom: 10px;
+      }
+      .contact-section form input, .contact-section form textarea {
+        padding: 12px;
+        border: 1px solid lightgray;
+        border-radius: 4px;
+      }
+      .contact-section form input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      .contact-section form input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contact-section">
+      <h1>Contact Us</h1>
+      <p>מייקי כלב רגיש וקצת עצלן, בן שלוש. יימסר למשפחה חמה ואוהבת</p>
+      <div class="בואו לאמץ את מייקי">
+        <img src="icons8-phone-24.png" alt="Phone icon">
+        <span>555-555-5555</span>
+      </div>
+      <div class="contact-info">
+        <img src="icons8-composing-mail-50.png" alt="Email icon">
+        <span>Dogly@notamail.com </span>
+      </div>
+      <form action="/contact" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </body>
+</html>
